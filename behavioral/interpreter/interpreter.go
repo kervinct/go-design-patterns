@@ -6,7 +6,7 @@ import (
 	"strings"
 )
 
-// Calculate 波兰标记
+// Calculate 逆波兰标记计算
 func Calculate(o string) (int, error) {
 	stack := polishNotationStack{}
 	operators := strings.Split(o, " ")
